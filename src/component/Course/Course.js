@@ -6,7 +6,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 
 const Course = (props) => {
-    const {title,image,price}=props.course
+    const {title,image,price}=props.course;
     return (
         <div className="main col-md-6">
             <div>

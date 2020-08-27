@@ -6,6 +6,7 @@ import Course from '../Course/Course';
 import Cart from '../Cart/Cart';
 
 const Courses = (props) => {
+    
 
     const [cart, setcart] = useState([]);
 
@@ -20,7 +21,7 @@ const Courses = (props) => {
                 <div className="row">
                 <div className="course-area">
                       {
-                          courses.map(co=><Course course={co} addtoCart={addtoCart}></Course>)
+                          courses.map(co=><Course course={co} addtoCart={addtoCart} key={co.title}></Course>)
                       }
                 </div>
             <div className="cart-area">
