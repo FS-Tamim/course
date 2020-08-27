@@ -1,0 +1,9 @@
+.main{
+    display: flex;
+    margin-top:3%;
+    /* margin-left: 4%; */
+}
+.course-area{
+    width: 70%;
+    border-right: 1px solid gray;
+}
